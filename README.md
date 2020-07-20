@@ -1,5 +1,5 @@
 # stafi-docker
-Utils to build docker file for the stafi network - https://docs.stafi.io/
+Utils to build and run the stafi node as a docker image  - https://docs.stafi.io/
 
 ## Prerequisites
 
