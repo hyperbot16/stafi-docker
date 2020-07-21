@@ -18,9 +18,8 @@ usage() {
     exit 1
 }
 
-
-declare nopull
-declare branch
+nopull = ''
+branch = ''
 
 
 while [[ "$#" -gt 0 ]]; do
@@ -49,6 +48,7 @@ echo $branch
 
 
 if [ -z $branch ]; then
+REPLY = ''
 echo -e "${YELLOW}You have not specified a branch to build. This will build the master branch${NC}"
 read -p "Are you sure you want to continue (y|n): " $REPLY
 
