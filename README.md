@@ -14,11 +14,11 @@ Tools to build and run the stafi node as a docker image  - https://docs.stafi.io
     ```
 3. Build the image using (You might need to watch The Irishman while you wait for this)
     ```
-    ./build_image.sh --branch v0.1.1
+    ./build_image.sh --branch sitara
     ```
 4. Start your stafi node container (as a validator). This command takes the same arguments as the stafi binary
     ```
-    ./stafi.sh --chain=testnet --validator --name "name on telemetry" --pruning=archive
+    ./stafi.sh --chain=testnet --validator --name 'CustomName|FIRST_TEN_10_STASH_CHARS' --pruning=archive
     ```
 
 
